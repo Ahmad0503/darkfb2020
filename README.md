@@ -16,14 +16,11 @@ pkg install python2
 
 pip2 install --upgrade pip
 
-pip2 install requests
-
-pip2 install yagmail
-
-pip2 install mechanize
 
 git clone https://github.com/mazjhee21/darkfb2020
 
 cd darkfb2020
+
+bash setup.sh
 
 python2 kolop.py
